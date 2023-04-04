@@ -1,0 +1,44 @@
+.card {
+    width: 10rem;
+    height: 13rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.34);
+    /* background: red; */
+    border: 7px solid var(--orange);
+    border-radius: 22px;
+    padding: 0 26px 30px 26px;
+    padding: auto;
+    overflow: hidden;
+}
+
+.card > img{
+    transform: scale(0.6);
+    /* margin-bottom: 2rem; */
+}
+
+.card> :nth-child(3){
+    color: var(--gray);
+    font-size: 16px;
+}
+
+.c-button{
+    background: #ffffff;
+    box-shadow: 0px 19px 60px rgba(0,0,0,0.4);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-top: 1rem;
+    border-radius: 33px;
+    color: blueviolet;
+}
+@media  screen and (max-width:500px){
+    .card{
+        width: 80%;
+    }
+}
